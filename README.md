@@ -20,31 +20,31 @@
       activation=linear  
 
 
-      [yolo]　　
-      mask = 6,7,8　　
+      [yolo]   
+      mask = 6,7,8  
+      anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326    
+      classes=1      # classes number  
+      
+      ......
+      
+      filters=18     # 3*(5+num_classes)   
+      activation=linear    
+
+
+      [yolo]   
+      mask = 3,4,5   
       anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326  
       classes=1      # classes number  
       
       ......
       
-      filters=18     # 3*(5+num_classes)  
-      activation=linear  
-
-
-      [yolo]　　
-      mask = 3,4,5  
-      anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326  
-      classes=1      # classes number  
+      filters=18     # 3*(5+num_classes)    
+      activation=linear    
       
-      ......
-      
-      filters=18     # 3*(5+num_classes)  
-      activation=linear  
-      
-      [yolo]
-      mask = 0,1,2  
-      anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326  
-      classes=1      # classes number  
+      [yolo]  
+      mask = 0,1,2    
+      anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326    
+      classes=1      # classes number    
 
 
    3. open check_weight.py and modify model_path, config_path, weight_file of yourself.
