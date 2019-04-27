@@ -12,10 +12,10 @@
    2. yolo.cfg:
       Modify the yolo.cfg corresponding to own train config, change the below items.
       
-      width=960        # train image's width  
+      width=960        ## train image's width  
       height=512       # train image's heigh  
       
-      ......
+      ......  
       filters=18       # 3*(5+num_classes)  
       activation=linear  
 
