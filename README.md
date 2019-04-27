@@ -1,4 +1,4 @@
-# keras yolov3 model h5 file to darknet yolov3.weights
+# keras yolov3 h5 model file convert to darknet yolov3.weights
 
 ## Introduction
    This script according to https://github.com/qqwweee/keras-yolo3/blob/master/convert.py implementation yolov3 train saved      h5 model convert to darknet yolov3.weights.
